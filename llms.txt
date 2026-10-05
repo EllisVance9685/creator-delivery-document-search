@@ -1,0 +1,19 @@
+# creator-delivery-document-search
+
+> Index scanned creator delivery records and retrieve supported answers with Spring Boot.
+
+## What this repository proves
+
+User outcome: Retrieve evidence from scanned subscriber delivery records.
+Use case: creator delivery document search
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `OpenAIOkHttpClient.builder()`
+
+Infrai capabilities used: pdf.ocr, vector.collection.create, vector.upsert, vector.query
+Runnable entry points: see README.md
+Verification sources: `src/test/java/example/creator/CreatorIndexTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

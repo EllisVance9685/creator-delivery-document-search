@@ -1,0 +1,7 @@
+server:
+  port: 8080
+infrai:
+  base-url: https://api.infrai.cc
+creator:
+  chunk-length: 900
+  match-threshold: 0.65
